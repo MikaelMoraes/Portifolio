@@ -11,7 +11,7 @@ git init
 git add -A 
 git commit -m 'deploy'
 # se você estiver implantando em https://<USERNAME>.github.io 
- git push -f git@github.com:MikaelMoraes/MikaelMoraes.github.io.git main
+ #git push -f git@github.com:MikaelMoraes/MikaelMoraes.github.io.git main
 # se você estiver implantando em https://<USERNAME>.github.io/<REPO> 
- #git push -f git@github.com:MikaelMoraes/Portifolio.git main:gh-pages
+ git push -f git@github.com:MikaelMoraes/Portifolio.git main:gh-pages
 cd -
