@@ -13,5 +13,5 @@ git commit -m 'deploy'
 # se você estiver implantando em https://<USERNAME>.github.io 
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 # se você estiver implantando em https://<USERNAME>.github.io/<REPO> 
- git push -f git@github.com:MikaelMoraes/Portifolio.git main:gh-pages
+ git push -f github.com:MikaelMoraes/Portifolio.git main:gh-pages
 cd -
