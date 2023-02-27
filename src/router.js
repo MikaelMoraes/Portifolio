@@ -29,7 +29,7 @@ const routes = [
         component: PaginaInicial
     },
             {
-                path: '/Home', component: Home, children: [
+                path: '/Portifolio/Home', component: Home, children: [
                     { path: 'Projetos', component: Projetos, name: 'Projetos' },
                     { path: 'Sobre', component: Sobre, name: 'Sobre' },
                     { path: 'Contato', component: Contato, name: 'Contato' }
