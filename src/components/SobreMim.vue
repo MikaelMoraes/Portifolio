@@ -163,7 +163,7 @@
 </template>
 <script>
 export default {
-    name: 'Sobre'
+    name: 'SobreMim'
 }
 </script>
 <style>

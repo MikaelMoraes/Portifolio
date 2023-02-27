@@ -65,7 +65,7 @@
 </template>
 <script>
 export default {
-    name: 'Contato'
+    name: 'ContatoInicial'
 }
 </script>
 <style scoped>

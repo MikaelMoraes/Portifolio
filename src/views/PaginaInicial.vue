@@ -30,7 +30,7 @@
 </template>
 <script>
 export default {
-    name: "Pagina inicial"
+    name: "PaginaInicial"
   
 }
 </script>

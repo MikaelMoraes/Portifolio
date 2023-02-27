@@ -42,16 +42,16 @@
                 </transition>
             </router-view>
         </div>
-        <rodape class="posicao"/>
+        <rodapeHome class="posicao"/>
     </div>
 
 </template>
 <script>
-import rodape from '@/components/rodape.vue'
+import rodapeHome from '@/components/rodapeHome.vue'
 export default{
-    name:'home',
+    name:'homeInicial',
     components:{
-        rodape
+        rodapeHome
     } 
 }
 </script>

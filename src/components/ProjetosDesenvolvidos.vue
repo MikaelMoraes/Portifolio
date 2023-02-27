@@ -131,7 +131,7 @@
 </template>
 <script>
 export default {
-    name: 'Projetos'
+    name: 'ProjetosDesenvolvidos'
 }
 </script>
 <style scoped>

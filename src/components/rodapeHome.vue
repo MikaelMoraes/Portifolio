@@ -19,7 +19,7 @@
 </template>
 <script>
 export default{
-    name: 'rodape'
+    name: 'rodapeHome'
 }
 </script>
 <style>
