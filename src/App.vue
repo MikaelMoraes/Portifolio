@@ -12,6 +12,7 @@ export default {
 <style>
 body{
   background-color: #303030;
+  min-height: 100vh;
 }
 body::-webkit-scrollbar {
   width: 12px;               /* width of the entire scrollbar */

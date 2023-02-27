@@ -42,10 +42,19 @@
                 </transition>
             </router-view>
         </div>
+        <rodape class="posicao"/>
     </div>
 
 </template>
-
+<script>
+import rodape from '@/components/rodape.vue'
+export default{
+    name:'home',
+    components:{
+        rodape
+    } 
+}
+</script>
 <style scoped>
 .menu-color {
     background-color: #303030;
@@ -58,19 +67,16 @@
 .border-menu {
     border-bottom: dashed 2px #777777;
 }
-.border-footer {
-    border-top: dashed 2px #777777;
-}
 .ativo {
-    color: rgb(255, 255, 255);
-    background-color: rgb(162, 0, 255);
-    border-color: rgb(162, 0, 255);
+    color:  rgb(59, 57, 59);
+    background-color: rgb(0, 0, 0);
 }
 
 .ativado {
+    
     color: rgb(255, 255, 255);
-    background-color: rgb(101, 19, 148);
-    border-color: rgb(101, 19, 148);
+    background-color: rgb(27, 27, 27);
+    border: dashed 2px #777777;
 }
 
 .fade-enter-active,
@@ -82,4 +88,8 @@
 .fade-leave-to {
     opacity: 0;
 }
+.posicao{
+    position: bottom;
+}
+
 </style>

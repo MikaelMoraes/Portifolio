@@ -5,26 +5,30 @@
             </h2>
         </div>
         <div class="col-12 col-sm-12 col-lg-6 text-center mt-5">
-            <form class="row g-3">
+            <form target="_blank" action="https://formsubmit.co/mikael.vitor5@gmail.com" method="POST">
+                <div class="row g-3">
                 <div class="col-md-12">
-                    <label for="inputEmail4" class="form-label text-white float-start">Nome</label>
-                    <input type="email" class="form-control bg-input" id="inputEmail4">
+                    <label for="name" class="form-label text-white float-start">Nome</label>
+                    <input type="text" name="nome" class="form-control bg-input" required>
                 </div>
                 <div class="col-md-6">
                     <label for="inputEmail4" class="form-label text-white float-start">E-mail</label>
-                    <input type="email" class="form-control bg-input" id="inputEmail4">
+                    <input type="email"  name="E-mail" class="form-control bg-input" required>
                 </div>
                 <div class="col-md-6">
                     <label for="inputEmail4" class="form-label text-white float-start">Telefone/Whatsapp</label>
-                    <input type="email" class="form-control bg-input" id="inputEmail4">
+                    <input type="text" name="telefone" class="form-control bg-input" id="inputEmail4" >
                 </div>
                 <div class="col-12">
                     <label for="inputAddress2" class="form-label text-white float-start">Mensagem</label>
-                    <textarea class="form-control bg-input" id="" cols="30" rows="10"></textarea>
+                    <textarea class="form-control bg-input" name="menssagem" cols="30" rows="10"></textarea>
                 </div>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
                 <div class="col-12">
                     <button type="submit" class="btn btn-secondary float-start">Enviar</button>
                 </div>
+            </div>
             </form>
         </div>
         <div class="col-12 col-sm-12 col-lg-6 text-center align-self-center mt-5">
@@ -47,7 +51,7 @@
                 </div>
                 <div class="col-12 col-md-4 mt-5 ">
                    <p class="text-white "> Github</p>
-                    <a href="https://github.com/MikaelMoraes" class="mx-5 icon-git icon card-icon "> <i class="bi bi-github"></i>
+                    <a href="https://github.com/MikaelMoraes" target="_blank" class="mx-5 icon-git icon card-icon "> <i class="bi bi-github"></i>
                     </a>
                     <p class="text-white">@MikaelMoraes</p>
                 </div>
