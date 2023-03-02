@@ -10,7 +10,7 @@ import Contato from '@/components/ContatoInicial.vue'
 const routes = [
 
     {
-        path: '/',
+        path: 'portifolio-Mikael.vercel.app',
         component: PaginaInicial
     },
             {
