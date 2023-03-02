@@ -1,11 +1,10 @@
 <template>
-<router-view/>
+<router-view></router-view>
 </template>
 
 <script>
 export default {
-  name: 'App',
-
+  name: 'App'
 }
 </script>
 
@@ -15,16 +14,16 @@ body{
   min-height: 100vh;
 }
 body::-webkit-scrollbar {
-  width: 12px;               /* width of the entire scrollbar */
+  width: 12px;             
 }
 
 body::-webkit-scrollbar-track {
-  background: #282828;        /* color of the tracking area */
+  background: #282828;       
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #444444;    /* color of the scroll thumb */
-  border-radius: 30px;       /* roundness of the scroll thumb */
-  border: 3px solid #282828;  /* creates padding around scroll thumb */
+  background-color: #444444;   
+  border-radius: 30px;      
+  border: 3px solid #282828; 
 }
 </style>
