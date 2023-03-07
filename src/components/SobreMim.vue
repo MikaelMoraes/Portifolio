@@ -1,17 +1,12 @@
 <template>
     <div>
         <div class="row mt-5 align-items-center  p-5">
-            <div class="col-12 col-md-6 col-lg-6 text-center  ">
-                <h1 class="text-white " >Olá meu nome é Mikael Vitor</h1>
+            <div class="col-12 col-md-6 col-lg-6  text-center text-md-start ">
+                <h1 class="text-white " >Olá eu nome é Mikael Vitor</h1>
                 <p  class="text-light " id="texto-sobre-mim">
-                    Meu início na área de programação foi
-                    meio turbulento, pôs cai de paraquedas no curso de licenciatura em computação onde a única coisa que
-                    tinha chamado minha atenção era a área de manutenção de micros (tanto que acabei abrindo uma
-                    assistência técnica), mas com o decorrer do curso fui me aprofundando em matérias voltadas para a
-                    lógica de programação e comecei a me apaixonar pelo mundo da programação e hoje busco uma
-                    oportunidade em uma empresa que possa me ajudar a crescer como profissional e pessoal. </p>
+                    Atualmente estou terminando minha primeira graduação em Licenciatura em Computação e buscando uma chance de me realocar no mercado, tenho experiência na area de desenvolvimento <strong>Front-end</strong>, pois estagiei pelo periodo de 1 ano na empresa <a href="https://euigorlopes.com.br/" class="text-primary decoracao">Igor Lopes</a>, onde desenvolvi com a maioria das tecnologias listadas abaixo.. </p>
             </div>
-            <div class="col-12 col-12 col-md-6 col-lg-6  text-center ">
+            <div class="col-12 col-12 col-md-6 col-lg-6 text-center text-md-end">
                 <img src="@/assets/FotoSobre.jpg" class="w-50 borda-img" alt="">
             </div>
         </div>
@@ -186,6 +181,9 @@ export default {
    
     box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.24);
    
+}
+.decoracao{
+    text-decoration: none;
 }
 
 </style>

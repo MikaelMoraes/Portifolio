@@ -36,24 +36,25 @@
             <div class="row">
 
                 <div class="col-12 col-md-4 mt-5">
-                    <p class="text-white "> Linkedin</p>
+                    
                     <a href="https://www.linkedin.com/in/mikael-moraes-4344051b1/" target="_blank" class="mx-5 icon-link icon  card-icon "> <i class="bi bi-linkedin"></i>
                     </a>
-                    <p class="text-white "> Mikael Moraes</p>
+                    <p class="text-white mt-3"> <strong>Linkedin</strong> </p>
+                    <p class="text-white  "> Mikael Moraes</p>
                 </div>
                 
                 <div class="col-12 col-md-4 mt-5">
-                    <p class="text-white "> Whatsapp</p>
-                    <a href="#" class="mx-5 icon-what icon card-icon "> <i class="bi bi-whatsapp"></i>
+                    <a href="https://api.whatsapp.com/send?phone=5521990842254&text=Ol%C3%A1,%20vim%20pelo%20seu%20portfolio,%20gostaria%20de%20falar%20com%20voc%C3%AA%20sobre%20uma%20proposta!!"  target="_blank" class="mx-5 icon-what icon card-icon "> <i class="bi bi-whatsapp"></i>
                     </a>
+                    <p class="text-white mt-3"> <strong>Whatsapp</strong> </p>
                     <p class="text-white"> (21) 9 9084-2254</p>
                 
                 </div>
                 <div class="col-12 col-md-4 mt-5 ">
-                   <p class="text-white "> Github</p>
                     <a href="https://github.com/MikaelMoraes" target="_blank" class="mx-5 icon-git icon card-icon "> <i class="bi bi-github"></i>
                     </a>
-                    <p class="text-white">@MikaelMoraes</p>
+                    <p class="text-white mt-3 "> <strong>Github</strong> </p>
+                    <p class="text-white ">@MikaelMoraes</p>
                 </div>
            
             </div>
