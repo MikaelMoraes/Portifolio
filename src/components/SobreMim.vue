@@ -21,10 +21,10 @@
                 <h1>Tenho experiência com: </h1>
             </div>
         </div>
-        <div class="row align-items-center p-5">
-            <div class="col-md-7  offset-md-3 ">
+        <div class="row align-items-center p-5 m-2">
+            <div class="col-md-7 col-sm-7  offset-md-3 offset-sm-3">
                 <div class="row">
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 text-center m-2">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 text-center m-2">
                         <div class="card-skills">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                                 viewBox="0 0 48 48">
@@ -40,7 +40,7 @@
                             <p class="text-white">HTML5</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 text-center m-2">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 text-center m-2">
                         <div class="card-skills">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                                 viewBox="0 0 48 48">
@@ -56,7 +56,7 @@
                             <p class="text-white">CSS3</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 text-center m-2">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 text-center m-2">
                         <div class="card-skills">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                                 viewBox="0 0 48 48">
@@ -68,7 +68,7 @@
                             <p class="text-white">JavaScript</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 text-center m-2">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 text-center m-2">
                         <div class="card-skills">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                                 viewBox="0 0 48 48">
@@ -80,7 +80,7 @@
                             <p class="text-white">Vue JS</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 text-center m-2">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 text-center m-2">
                         <div class="card-skills">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                                 viewBox="0 0 30 30">
@@ -102,7 +102,7 @@
                             <p class="text-white">PHP</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 text-center m-2">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 text-center m-2">
                         <div class="card-skills">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                                 viewBox="0 0 48 48">
@@ -113,7 +113,7 @@
                             <p class="text-white">Git</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 text-center m-2">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 text-center m-2">
                         <div class="card-skills">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                                 viewBox="0 0 48 48">
@@ -130,7 +130,7 @@
                             <p class="text-white">WordPress</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 text-center m-2">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 text-center m-2">
                         <div class="card-skills">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                                 viewBox="0 0 48 48">
@@ -141,7 +141,7 @@
                             <p class="text-white">SASS</p>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 text-center m-2">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 text-center m-2">
                         <div class="card-skills">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
                                 viewBox="0 0 48 48">
