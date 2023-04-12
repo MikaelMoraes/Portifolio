@@ -1,6 +1,6 @@
 <template>
     <div>
-    <div class="container-fluid rodape-color border-footer">
+        <div class="container-fluid rodape-color border-footer">
             <div class="row p-3">
                 <div class="col text-center">
                     <img src="@/assets/logo-portifolio.png" alt="Logo" width="70" height="70">
@@ -12,11 +12,11 @@
                     <P class="text-white fs-5">@2023</P>
                 </div>
             </div>
-    </div>
+        </div>
     </div>
 </template>
 <script>
-export default{
+export default {
     name: 'rodapeHome'
 }
 </script>
@@ -24,6 +24,7 @@ export default{
 .rodape-color {
     background-color: rgb(27, 27, 27);
 }
+
 .border-footer {
     border-top: dashed 2px #777777;
 }

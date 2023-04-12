@@ -21,9 +21,9 @@
                 <h1>Tenho experiência com: </h1>
             </div>
         </div>
-        <div class="row align-items-center p-5 m-2">
-            <div class="col-md-7 col-sm-7  offset-md-3 offset-sm-3">
-                <div class="row">
+        <div class="row ">
+            <div class="col-md-8 col-sm-8  offset-md-2 offset-sm-2">
+                <div class="row justify-content-center">
                     <div class="col-3 col-sm-3 col-md-3 col-lg-3 text-center m-2">
                         <div class="card-skills">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
@@ -68,6 +68,8 @@
                             <p class="text-white text-center">JavaScript</p>
                         </div>
                     </div>
+                </div>
+                <div class="row justify-content-center">
                     <div class="col-3 col-sm-3 col-md-3 col-lg-3 text-center m-2">
                         <div class="card-skills">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
@@ -113,6 +115,8 @@
                             <p class="text-white text-center">Git</p>
                         </div>
                     </div>
+                </div>
+                <div class="row justify-content-center mb-3">
                     <div class="col-3 col-sm-3 col-md-3 col-lg-3 text-center m-2">
                         <div class="card-skills">
                             <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100"
@@ -190,4 +194,5 @@ export default {
 
 .decoracao {
     text-decoration: none;
-}</style>
+}
+</style>

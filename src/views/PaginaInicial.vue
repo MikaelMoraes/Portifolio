@@ -10,7 +10,7 @@
                             repeatCount="indefinite" />
                     </path>
                     <text font-size="36" font-family="Montserrat" fill='#ffffff'>
-                        <textPath xlink:href="#path">Meu Nome é Mikael 
+                        <textPath xlink:href="#path">Meu Nome é Mikael
                         </textPath>
                     </text>
                 </svg>
@@ -31,7 +31,7 @@
 <script>
 export default {
     name: "PaginaInicial"
-  
+
 }
 </script>
 <style scoped>
@@ -39,7 +39,7 @@ export default {
 
 .container {
     margin-top: 200px;
-   
+
 }
 
 .btn-line {

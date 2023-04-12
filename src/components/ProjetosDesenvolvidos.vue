@@ -46,7 +46,9 @@
                                 <img src="@/assets/Vagas.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Projeto VAGAS</h5>
-                                    <p class="card-text">O Vagas tem com objetivo criar vagas e gerenciar vagas de trabalho, este projeto foi criado com o intuito de desenvolver minhas habilidades com VUE JS.</p>
+                                    <p class="card-text">O Vagas tem com objetivo criar vagas e gerenciar vagas de trabalho,
+                                        este projeto foi criado com o intuito de desenvolver minhas habilidades com VUE JS.
+                                    </p>
                                     <a href="#" class="btn btn-projetos-linkedin ms-2"> <i class="bi bi-linkedin"></i>
                                         Linkedin</a>
                                     <a href="https://github.com/MikaelMoraes/Projeto-Vagas-Front" target="_blank"
@@ -102,7 +104,8 @@
                         <img src="@/assets/Vagas.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Projeto VAGAS</h5>
-                            <p class="card-text">O Vagas tem com objetivo criar vagas e gerenciar vagas de trabalho, este projeto foi criado com o intuito de desenvolver minhas habilidades com VUE JS.</p>
+                            <p class="card-text">O Vagas tem com objetivo criar vagas e gerenciar vagas de trabalho, este
+                                projeto foi criado com o intuito de desenvolver minhas habilidades com VUE JS.</p>
                             <a href="#" class="btn btn-projetos-linkedin ms-2 mt-3"> <i class="bi bi-linkedin"></i>
                                 Linkedin</a>
                             <a href="https://github.com/MikaelMoraes/Projeto-Vagas-Front" target="_blank"
