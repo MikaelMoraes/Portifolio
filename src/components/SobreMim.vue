@@ -2,13 +2,13 @@
     <div>
         <div class="row mt-5 align-items-center  p-5">
             <div class="col-12 col-md-6 col-lg-6  text-center text-md-start ">
-                <h1 class="text-white text-center ">Olá eu nome é Mikael Vitor</h1>
-                <p class="text-light " id="texto-sobre-mim">
+                <h1 class="text-white text-center ">Olá meu nome é Mikael Vitor</h1>
+                <p class="text-light text-center" id="texto-sobre-mim">
                     Atualmente estou terminando minha primeira graduação em Licenciatura em Computação e buscando uma chance
                     de me realocar no mercado, tenho experiência na area de desenvolvimento <strong>Front-end</strong>, pois
                     estagiei pelo periodo de 1 ano na empresa <a href="https://euigorlopes.com.br/"
                         class="text-primary decoracao">Igor Lopes</a>, onde desenvolvi com a maioria das tecnologias
-                    listadas abaixo.. </p>
+                    listadas abaixo... </p>
             </div>
             <div class="col-12 col-12 col-md-6 col-lg-6 text-center text-md-end">
                 <img src="@/assets/FotoSobre.jpg" class="w-50 borda-img" alt="">
