@@ -3,20 +3,18 @@
         <div class="container">
             <h1 class="text-white text-center mt-5">Estes são os meus Projetos </h1>
             <h3 class="text-secondary text-center">(Boa parte deles ainda estão em construção) </h3>
-            <div class="row p-5 tamanho">
+            <div class="row p-5 tamanho align-items-center">
                 <div class="col-12 col-md-4 col-lg-4 text-center d-none d-md-block  ">
-                    <div class="flipper">
-                        <div class="front">
-                            <div class="card card-border   mx-4 my-3">
+                    <div class="flip-card ">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
                                 <img src="@/assets/logo-portifolio.png" class="card-img-top p-5" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-white">Projeto COLABORA</h5>
                                 </div>
                             </div>
-                        </div>
-                        <div class="back">
-                            <div class="card card-border  mx-4 my-3">
-                                <img src="@/assets/Colabora-cut.png" class="card-img-top" alt="...">
+                            <div class=" flip-card-back">
+                                <img src="@/assets/Colabora-cut.png" class="card-img-top w-75" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Projeto COLABORA</h5>
                                     <p class="card-text"> O Colabora tem como objetivo conectar devs (de Preferência
@@ -31,18 +29,17 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-12 col-md-4 col-lg-4 text-center d-none d-md-block  ">
-                    <div class="flipper">
-                        <div class="front">
-                            <div class="card card-border   mx-4 my-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
                                 <img src="@/assets/logo-portifolio.png" class="card-img-top p-5" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-white">Projeto VAGAS</h5>
                                 </div>
                             </div>
-                        </div>
-                        <div class="back">
-                            <div class="card card-border  mx-4 my-3">
+                            <div class=" flip-card-back">
                                 <img src="@/assets/Vagas.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Projeto VAGAS</h5>
@@ -59,17 +56,15 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 text-center d-none d-md-block  ">
-                    <div class="flipper">
-                        <div class="front">
-                            <div class="card card-border   mx-4 my-3">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
                                 <img src="@/assets/logo-portifolio.png" class="card-img-top p-5" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title text-white">Projeto POKEDEX</h5>
                                 </div>
                             </div>
-                        </div>
-                        <div class="back">
-                            <div class="card card-border  mx-4 my-3">
+                            <div class=" flip-card-back">
                                 <img src="@/assets/pokedex.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Projeto POKEDEX</h5>
@@ -83,9 +78,9 @@
                         </div>
                     </div>
                 </div>
-
+          
                 <div class="col-12 col-md-4 col-lg-4 text-center d-blobk d-md-none  ">
-                    <div class="card card-border  mx-4 my-3">
+                    <div class="card card-border my-3">
                         <img src="@/assets/Colabora-cut.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Projeto COLABORA</h5>
@@ -100,7 +95,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 text-center d-blobk d-md-none  ">
-                    <div class="card card-border  mx-4 my-3">
+                    <div class="card card-border   my-3">
                         <img src="@/assets/Vagas.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Projeto VAGAS</h5>
@@ -114,7 +109,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-4 text-center d-blobk d-md-none  ">
-                    <div class="card card-border  mx-4 my-3">
+                    <div class="card card-border   my-3">
                         <img src="@/assets/pokedex.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Projeto POKEDEX</h5>
@@ -127,6 +122,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </template>
@@ -169,32 +165,47 @@ export default {
 
 }
 
-.flipper {
+.flip-card {
+    width: 300px;
+    height: 450px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+
+    position: relative;
     width: 100%;
     height: 100%;
-    transition: transform 0.8s;
+    text-align: center;
+    transition: transform 0.6s;
     transform-style: preserve-3d;
-    position: relative;
+
 }
 
-.flipper:hover {
+.flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-    /* se quiser uma animação na vertical,
-	troque por rotateX(180deg)
-	*/
 }
 
-.front,
-.back {
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-
-
 }
 
-.back {
+.flip-card-front {
+    border: dashed 2px #777777;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.flip-card-back {
+    border: dashed 2px #777777;
+    background-color: transparent;
+    border-radius: 5px;
+    color: white;
     transform: rotateY(180deg);
 }
 
