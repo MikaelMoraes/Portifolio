@@ -19,15 +19,15 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <router-link class="nav-link " to="/Home/Projetos" active-class="ativo"
+                                <router-link class="nav-link " to="/" active-class="ativo"
                                     exact-active-class="ativado"> Projetos</router-link>
                             </li>
                             <li class="nav-item">
-                                <router-link class="nav-link " to="/Home/Sobre" active-class="ativo"
+                                <router-link class="nav-link " to="/Sobre" active-class="ativo"
                                     exact-active-class="ativado"> Sobre</router-link>
                             </li>
                             <li class="nav-item">
-                                <router-link class="nav-link " to="/Home/Contato" active-class="ativo"
+                                <router-link class="nav-link " to="/Contato" active-class="ativo"
                                     exact-active-class="ativado"> Contato</router-link>
                             </li>
                         </ul>
