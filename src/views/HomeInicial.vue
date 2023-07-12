@@ -19,16 +19,13 @@
                     <div class="offcanvas-body">
                         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                             <li class="nav-item">
-                                <router-link class="nav-link " to="/" active-class="ativo"
-                                    exact-active-class="ativado"> Projetos</router-link>
+                                <router-link class="nav-link " to="/" exact-active-class="ativado"> Projetos</router-link>
                             </li>
                             <li class="nav-item">
-                                <router-link class="nav-link " to="/Sobre" active-class="ativo"
-                                    exact-active-class="ativado"> Sobre</router-link>
+                                <router-link class="nav-link " to="/Sobre" exact-active-class="ativado"> Sobre</router-link>
                             </li>
                             <li class="nav-item">
-                                <router-link class="nav-link " to="/Contato" active-class="ativo"
-                                    exact-active-class="ativado"> Contato</router-link>
+                                <router-link class="nav-link " to="/Contato" exact-active-class="ativado"> Contato</router-link>
                             </li>
                         </ul>
                     </div>
@@ -65,11 +62,6 @@ export default {
 
 .border-menu {
     border-bottom: dashed 2px #777777;
-}
-
-.ativo {
-    color: rgb(59, 57, 59);
-    background-color: rgb(0, 0, 0);
 }
 
 .ativado {
